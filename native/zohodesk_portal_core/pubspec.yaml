@@ -20,7 +20,10 @@ dependencies:
 
   zohodesk_portal_community: ^1.0.3
 
-  zohodesk_portal_ticket: ^1.0.3
+  zohodesk_portal_ticket: 
+    git: 
+      url: https://github.com/joshuachinemezu/zdesk-asap-flutter.git
+      path: native/zohodesk_portal_ticket
 
   zohodesk_portal_gc: ^1.0.3
 
