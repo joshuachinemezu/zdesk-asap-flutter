@@ -12,20 +12,31 @@ dependencies:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
 
-  zohodesk_portal_apikit: ^1.0.3
+  zohodesk_portal_apikit: 
+    git: 
+      url: https://github.com/joshuachinemezu/zdesk-asap-flutter.git
+      path: native/zohodesk_portal_apikit
 
 
+  zohodesk_portal_kb: 
+    git: 
+      url: https://github.com/joshuachinemezu/zdesk-asap-flutter.git
+      path: native/zohodesk_portal_kb
 
-  zohodesk_portal_kb: ^1.0.3
-
-  zohodesk_portal_community: ^1.0.3
+  zohodesk_portal_community: 
+    git: 
+      url: https://github.com/joshuachinemezu/zdesk-asap-flutter.git
+      path: native/zohodesk_portal_community
 
   zohodesk_portal_ticket: 
     git: 
       url: https://github.com/joshuachinemezu/zdesk-asap-flutter.git
       path: native/zohodesk_portal_ticket
 
-  zohodesk_portal_gc: ^1.0.3
+  zohodesk_portal_gc: 
+    git: 
+      url: https://github.com/joshuachinemezu/zdesk-asap-flutter.git
+      path: native/zohodesk_portal_gc
 
 dev_dependencies:
   flutter_test:
