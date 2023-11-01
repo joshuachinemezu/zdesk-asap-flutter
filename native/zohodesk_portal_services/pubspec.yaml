@@ -15,7 +15,10 @@ dependencies:
     git: 
       url: https://github.com/joshuachinemezu/zdesk-asap-flutter.git
       path: native/zohodesk_portal_core
-  zohodesk_portal_chat: ^1.0.3
+  zohodesk_portal_chat:
+    git: 
+      url: https://github.com/joshuachinemezu/zdesk-asap-flutter.git
+      path: native/zohodesk_portal_chat
 
 dev_dependencies:
   flutter_test:
